@@ -47,3 +47,11 @@
 .reading-complete h4{color:#78816d}
 .reading-complete h4,.reading-complete p{opacity:.82}
 @media(max-width:620px){.reading-entry-top{align-items:flex-start;flex-direction:column;gap:5px}}
+
+.daily-prayer-card{margin:14px 0;padding:16px 17px;border:1px solid #d9dfd0;border-left:3px solid #829276;border-radius:12px;background:linear-gradient(135deg,#f4f2e9 0%,#faf6ef 100%)}
+.daily-prayer-label{display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:#68765d;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.daily-prayer-label .tag{margin-left:auto;letter-spacing:normal;text-transform:none}
+.daily-prayer-sprig{font-size:20px;line-height:1;color:#829276}
+.daily-prayer-card h3{margin:9px 0 5px;color:var(--ink);font-family:var(--serif);font-size:19px;font-weight:600}
+.daily-prayer-card p{margin:0 0 9px;color:var(--muted);font-size:12px;line-height:1.65;white-space:pre-wrap}
+.daily-prayer-card>small{color:#8b806f;font-size:10px}
