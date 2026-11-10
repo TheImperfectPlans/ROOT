@@ -38,3 +38,12 @@
 .checkin-history-item:last-child{border-bottom:0}
 .checkin-history-item small{font-size:9px;color:var(--olive)}
 .checkin-history-item p{font-size:11px;margin:3px 0;white-space:pre-wrap}
+
+/* Reading plan completion controls */
+.reading-entry{padding:15px 0}
+.reading-entry-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:7px}
+.reading-check{display:inline-flex;align-items:center;gap:8px;color:var(--olive);font-size:10px;font-weight:600;cursor:pointer}
+.reading-check input{width:16px;height:16px;accent-color:var(--olive);cursor:pointer}
+.reading-complete h4{color:#78816d}
+.reading-complete h4,.reading-complete p{opacity:.82}
+@media(max-width:620px){.reading-entry-top{align-items:flex-start;flex-direction:column;gap:5px}}
