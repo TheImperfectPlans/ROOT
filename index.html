@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef"><meta name="description" content="ROOT — a botanical Bible reading and study planner. Read, observe, understand and transform.">
+  <title>ROOT — Rooted in the Word</title><link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="ROOT home"><span class="brand-mark">✳</span><span><strong>ROOT</strong><small>ROOTED IN THE WORD</small></span></a>
+      <div class="side-label">YOUR GARDEN</div>
+      <nav class="nav-list" aria-label="Main navigation">
+        <button class="nav-item active" data-page="dashboard"><span>⌂</span> My Garden</button>
+        <button class="nav-item" data-page="tracker"><span>▤</span> Growing in the Word</button>
+        <button class="nav-item" data-page="plans"><span>❧</span> Planting Seeds</button>
+        <button class="nav-item" data-page="study"><span>✎</span> Deep Roots</button>
+        <button class="nav-item" data-page="prayers"><span>♡</span> In His Presence</button>
+        <button class="nav-item" data-page="verses"><span>❀</span> Seeds of Truth</button>
+        <button class="nav-item" data-page="reflections"><span>☼</span> Quiet Moments</button>
+        <button class="nav-item" data-page="growth"><span>↗</span> My Growth</button>
+      </nav>
+      <div class="sidebar-verse"><span class="leaf">❧</span><p>“Rooted and built up in him, strengthened in the faith...”</p><small>COLOSSIANS 2:7</small></div>
+      <div class="sidebar-bottom"><span class="status-dot"></span> Your entries are saved on this device</div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="Open menu">☰</button><div class="breadcrumb">ROOT <span>/</span> <b id="pageLabel">My Garden</b></div><div class="top-date" id="todayLabel"></div></header>
+      <div id="appContent" class="content" aria-live="polite"></div>
+      <footer class="footer">ROOT <span>·</span> Grow deeper. Live rooted.</footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

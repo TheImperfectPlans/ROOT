@@ -1,0 +1,10 @@
+{
+  "name": "ROOT — Rooted in the Word",
+  "short_name": "ROOT",
+  "description": "A botanical Bible reading and study planner.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#f7f5ef",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
